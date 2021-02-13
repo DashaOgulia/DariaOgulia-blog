@@ -571,7 +571,22 @@ height: auto;
   .polind{
       top:30px;
   }
+  .header-title-slider{
+      font-size:24px;
+  }
+  .header-subtitle-slider{
+      font-size:14px;
+  }
+  .header-button a {
+    padding: 10px 16px;
+    margin: 14px;
+    background: #ffc74a;
+    font-size:10px;
+  }
+  .view-hover .header-button{
+    width:max-content;
 
+  }
 }
 
 
@@ -694,6 +709,13 @@ height: auto;
 @media(max-width:991px){
     .containerbackground{
         font-size:180px;
+    }
+    .slider-block{
+        grid-template-rows: 300px;
+    }
+    .slider{
+        margin-top: -210px;
+
     }
 }
 

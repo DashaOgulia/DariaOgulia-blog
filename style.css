@@ -90,6 +90,11 @@ main{
     text-decoration: none;
     align-self: center;
 }
+.header-nav-link:hover{
+    color:#ffc74a;
+    text-decoration: underline;
+}
+
 
 .header-text{
     grid-area: header-text;

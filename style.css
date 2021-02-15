@@ -718,6 +718,10 @@ height: auto;
         column-gap: 10px;
         row-gap: 10px;
      }
+
+     .button{
+        padding: 15px 40px;
+     }
     
     }
             

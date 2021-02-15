@@ -457,6 +457,7 @@ main{
     line-height: 2em;
     color: #606f81;
     margin: 20px 0px;
+    text-align-last: left;
 }
 
 .button{
@@ -691,6 +692,11 @@ height: auto;
         grid-template-areas:
             "third-block-content";
     }
+    .orange-border{
+        border: 10px solid #ffc749;
+        top: 25px;
+        left: 30px;
+    }
    .second-block .containerbackground{
        font-size:118px;
    }
@@ -706,7 +712,7 @@ height: auto;
             "info-block";
         grid-template-rows: auto;
         row-gap: 10px;
-        margin: 60px;
+        margin: 40px;
     }
     .third-block{
         
